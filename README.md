@@ -1,6 +1,8 @@
-# StateX
+# StateX: Enhancing RNN Recall via Post-training State Expansion
 
-This is a simple implementation of the StateX. Run the scripts to reproduce the results in the paper.
+![Training pipeline of StateX versus ordinary long-context post-training](images/pipeline.png)
+
+This is the official implementation of the paper [StateX: RNN Recall via Post-training State Expansion](https://arxiv.org/abs/xxxx.xxxxx). Run the scripts to reproduce the results in the paper.
 
 ## Requirements
 
@@ -13,7 +15,7 @@ cd huggingface
 python download.py
 ```
 
-You should download the dataset `AlppAI/SlimPajama-chunked` to the directory `/home/data/slimpj-chunked` or modify the `data_path` in `data/slimpj.py` and `configs/training/drop/10b_bsz-512k_64k_cos_3e-4_slimpj.json`.
+You should download the dataset `AlppAI/SlimPajama-chunked` (<https://huggingface.co/datasets/AlppAI/SlimPajama-chunked>) to the directory `/home/data/slimpj-chunked` or modify the `data_path` in `data/slimpj.py` and `configs/training/drop/10b_bsz-512k_64k_cos_3e-4_slimpj.json`.
 
 ## Training
 
