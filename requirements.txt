@@ -1,0 +1,12 @@
+numpy
+datasets
+tensorboardX
+torch
+typed-argument-parser
+accelerate
+transformers
+deepspeed
+einops
+cut_entropy_loss
+triton
+flash-linear-attention
