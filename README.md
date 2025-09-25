@@ -2,7 +2,7 @@
 
 ![Training pipeline of StateX versus ordinary long-context post-training](images/pipeline.png)
 
-This is the official implementation of the paper [StateX: RNN Recall via Post-training State Expansion](https://arxiv.org/abs/xxxx.xxxxx). Run the scripts to reproduce the results in the paper.
+This is the official implementation of the paper [StateX: Enhancing RNN Recall via Post-training State Expansion](https://arxiv.org/abs/xxxx.xxxxx). Run the scripts to reproduce the results in the paper.
 
 ## Requirements
 
