@@ -2,7 +2,7 @@
 
 ![Training pipeline of StateX versus ordinary long-context post-training](images/pipeline.png)
 
-This is the official implementation of the paper [StateX: Enhancing RNN Recall via Post-training State Expansion](https://arxiv.org/abs/xxxx.xxxxx). Run the scripts to reproduce the results in the paper.
+This is the official implementation of the paper [StateX: Enhancing RNN Recall via Post-training State Expansion](https://arxiv.org/abs/2509.22630). Run the scripts to reproduce the results in the paper.
 
 ## Requirements
 
@@ -37,3 +37,14 @@ To compare the two methods, modify the `drop_mode` argument in `scripts/{gla,mam
 
 1. For GLA, set the `drop_mode` argument to `merge` in `scripts/gla_StateX.sh` and then run the script.
 2. For Mamba2, set the `drop_mode` argument to `merge_copy` in `scripts/mamba2_StateX.sh` and then run the script.
+
+# How to Cite?
+
+```bibtex
+@misc{
+  title={StateX: Enhancing RNN Recall via Post-training State Expansion},
+  authors={Xingyu Shen and Yingfa Chen and Zhen Leng Thai and Xu Han and Zhiyuan Liu and Maosong Sun},
+  year={2025},
+  url={https://arxiv.org/abs/2509.22630},
+}
+```
